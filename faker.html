@@ -1,0 +1,93 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+
+<link rel='apple-touch-icon' href='img/icon-h.png' type='image/png' />
+<link rel='shortcut icon' href='img/icon-h.ico' type='image/vnd.microsoft.icon' />
+<link rel='icon' href='img/icon-h.png' type='image/png' />
+<link rel='bookmark' href='img/icon-h.ico' type='image/vnd.microsoft.icon' />
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name = "viewport" content = "width = device-width, height = device-height, maximum-scale = 1.0, user-scalable = no" />
+
+<title>检修电子清单 V0.1</title>
+
+<link rel = "stylesheet" type = "text/css" href="css/style.css" />
+
+<script type = "text/javascript" src = "js/common.js"></script>
+<script type = "text/javascript" src = "js/faker.js"></script>
+
+<style>
+th, td {
+	white-space: nowrap;
+}
+</style>
+
+</head>
+
+<body>
+
+<h2>
+	检修电子清单 V0.1
+</h2>
+
+<p>
+	请选择设备类别：<br/>
+	<select id = "selectType">
+		<option value="e-valve">电动执行器</option>
+	</select>
+</p>
+
+<p>
+	请选择设备型号：<br/>
+	<select id = "selectPrecision">
+		<option value="rotork">罗托克/rotork</option>
+	</select>
+</p>
+
+<p>
+	请选择工作内容：<br/>
+	<select id = "selectPrecision">
+		<option value="wire">电动执行器拆/接线</option>
+	</select>
+</p>
+
+<p>现场勘察后可选：<br>
+	<input type = "checkbox" id = "ok" checked /><label for = "ok">新装执行器</label><br>
+	<input type = "checkbox" id = "ok" checked /><label for = "ok">执行器在高处</label><br>
+	<input type = "checkbox" id = "ok" checked /><label for = "ok">电池报警</label><br>
+	<input type = "checkbox" id = "linear" checked /><label for = "linear">外壳接地线松动/脱落</label>
+</p>
+<hr>
+
+<p>接线方法详见<a href="note.html">此处</a>。</p>
+<p>所需工具：</p>
+<ul>
+	<li>抹布、毛刷</li>
+	<li>验电笔</li>
+	<li>万用表</li>
+	<li>大一字螺丝刀</li>
+	<li>Φ6内六角扳手</li>
+	<li>绝缘胶带</li>
+	<li>记号笔</li>
+	<li>rotork专用遥控器</li>
+	<li>剥线钳</li>
+	<li>短接线</li>
+	<li style="color:red; font-weight: bold;">安全带（使用前检查合格证）</li>
+	<li>Φ10内六角扳手</li>
+	<li>尖嘴钳</li>
+	<li>大十字螺丝刀</li>
+</ul>
+<p>所需备件：</p>
+<ul>
+	<li>9V电池</li>
+	<li>不锈钢喉箍</li>
+	<li>多股绝缘黄绿线</li>
+</ul>
+
+<hr />
+<small>当前版本：V0.1</small><br />
+GX Software 2018-2020
+
+</body>
+</html>
